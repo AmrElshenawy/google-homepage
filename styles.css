@@ -9,22 +9,30 @@ ul{
 }
 
 #topleft li{
-    /*display: inline-block;*/
     float: left;
     padding-left: 13px;
     color: #000;
 }
 
 #topright li{
-    /*display: inline-block;*/
     float: right;
     padding-right: 15px;
     color: black;
 }
 
 li a{
-    display: block;
-    padding: 5px;
+    padding: 4px;
+}
+
+#topright #mapslogo{
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    border-bottom-left-radius: 2px; 
+    border-bottom-right-radius: 2px;   
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
 #logo img{
