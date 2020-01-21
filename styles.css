@@ -142,4 +142,38 @@ a{
     margin-bottom: 0;
     padding: auto 14px;
 }
+
+#shown{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(122, 124, 126);
+    font-family: sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: lighter;
+    /* text-shadow: 0px 2px 3px #555; */
+    opacity: 0.5;
+}
+
+#hidden{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: lighter;
+    /* text-shadow: 0px 2px 3px #555; */
+    opacity: 0.5;
+}
+
+#shown:hover {
+    color:  white;
+}
+
+#shown:hover ~  #hidden {
+    color: rgb(69, 71, 73);
+}
+
  
